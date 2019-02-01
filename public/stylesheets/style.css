@@ -1,0 +1,84 @@
+/* Global style */
+body {
+    background-color: #B3E5FC;
+}
+
+/* Header image */
+.full-width-image {
+    height: 150px;
+}
+
+.full-width-image img {
+    object-fit: contain;
+}
+
+/* Sections */
+#stats,
+#gear,
+#about {
+    border-bottom: 3px #212121 solid;
+}
+
+.section-head {
+    padding-left: 10px;
+    text-align: center;
+}
+
+/* Counter count */
+.counter
+{
+    background-color: #8BC34A;
+    text-align: center;
+}
+.nbBikeRide, 
+.nbBikeRideTotal, 
+.nbKm,
+.nbKmTotal,
+.deniveleTotal,
+.nbCrossfit,
+.nbCrossfitTotal,
+.recordDeadLift,
+.recordBackSquat,
+.recordFrontSquat,
+.recordEpaule,
+.ndSautsParapente
+{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.counter-count
+{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #00b3e7;
+    border-radius: 50%;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    line-height: 92px;
+    width: 92px;
+    height: 92px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: inline-block;
+}
+
+.nbBikeRide-p, 
+.nbBikeRideTotal-p, 
+.nbKm-p,
+.nbKmTotal-p,
+.deniveleTotal-p,
+.nbCrossfit-p,
+.nbCrossfitTotal-p,
+.recordDeadLift-p,
+.recordBackSquat-p,
+.recordFrontSquat-p,
+.recordEpaule-p,
+.ndSautsParapente-p
+{
+    font-size: 24px;
+    color: #000000;
+    line-height: 34px;
+}
